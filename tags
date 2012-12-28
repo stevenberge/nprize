@@ -1,0 +1,268 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALPHA	usvdbkw1.c	36;"	d	file:
+AVG_SCORE	netflix.h	38;"	d
+CINEMATCH_RMSE	netflix.h	37;"	d
+DTIME	ubaseline1.c	115;"	d	file:
+E	usvdbkw1.c	37;"	d	file:
+EPS	basic.h	40;"	d
+HOLDOUT	mix2.c	22;"	d	file:
+INF	basic.h	41;"	d
+LAMBDA	mix2.c	21;"	d	file:
+LAMBDA	usvdns1b.c	38;"	d	file:
+LAMBDA2	usvdns1b.c	39;"	d	file:
+LRATE	usvdns1b.c	37;"	d	file:
+LRATE_LAMBDA	usvdns1b.c	40;"	d	file:
+MAXK	basic.c	301;"	d	file:
+MAX_DAY	netflix.h	40;"	d
+MAX_ENTERIES_PER_MOVIE	netflix.h	41;"	d
+MAX_EPOCHS	usvdns1b.c	35;"	d	file:
+MAX_LEVELS	basic.c	440;"	d	file:
+MIN_DAY	netflix.h	39;"	d
+MOVIEAVGUSER_ALPHA	ubaseline1.c	430;"	d	file:
+MOVIEAVG_ALPHA	ubaseline1.c	48;"	d	file:
+MOVIECNTUSER_ALPHA	ubaseline1.c	470;"	d	file:
+MOVIETIMEUSER_ALPHA	ubaseline1.c	234;"	d	file:
+MOVIETIME_ALPHA	ubaseline1.c	170;"	d	file:
+MOVIE_LDAY	netflix.h	33;"	d
+MOVIE_LUSERMASK	netflix.h	31;"	d
+MOVIE_USERMASK	netflix.h	32;"	d
+NENTRIES	netflix.h	30;"	d
+NMOVIES	netflix.h	21;"	d
+NMOVIES	netflix2moviebin.py	/^NMOVIES=17770$/;"	v
+NMOVIES_QUALIFY	netflix.h	26;"	d
+NPROBE	netflix.h	23;"	d
+NQUALIFY	netflix.h	25;"	d
+NQUALIFY_SIZE	netflix.h	28;"	d
+NSCORES	mix2.c	58;"	d	file:
+NTRAIN	netflix.h	24;"	d
+NUSERS	netflix.h	22;"	d
+NUSERS_QUALIFY	netflix.h	27;"	d
+NonNegativeQuadraticOpt	basic.c	/^NonNegativeQuadraticOpt(double *A, double *b, double *x, int k)$/;"	f
+PROGRESS	basic.h	42;"	d
+PROGRESS1	basic.h	43;"	d
+TIMECORR2_ALPHA	ubaseline1.c	485;"	d	file:
+UNALL	utest.h	27;"	d
+UNTOTAL	utest.h	28;"	d
+UNTRAIN	utest.h	26;"	d
+USERAVGMOVIE_ALPHA	ubaseline1.c	326;"	d	file:
+USERAVG_ALPHA	ubaseline1.c	77;"	d	file:
+USERCNTMOVIE_ALPHA	ubaseline1.c	352;"	d	file:
+USERTIMEMOVIE_ALPHA	ubaseline1.c	139;"	d	file:
+USERTIME_ALPHA	ubaseline1.c	116;"	d	file:
+USER_LDAY	netflix.h	35;"	d
+USER_LMOVIEMASK	netflix.h	34;"	d
+USER_MOVIEMASK	netflix.h	36;"	d
+ZERO	basic.h	21;"	d
+aopt	utest.c	/^int aopt=0;$/;"	v
+bin_path	qualify2bin.py	/^bin_path="data\/qualify.bin"$/;"	v
+binwrite	qualify2bin.py	/^def binwrite(fp,movie,buf):$/;"	f
+buf	qualify2bin.py	/^        buf=''$/;"	v
+buf	qualify2bin.py	/^buf=''$/;"	v
+clip	utest.c	/^void clip(float *ein, unsigned int *uent, float *eout, int d)$/;"	f
+cliperr	utest.c	/^void cliperr()$/;"	f
+cliprmse	utest.c	/^double cliprmse(int k)$/;"	f
+closefiles	mix2.c	/^void closefiles(FILE *fp[], int nscores)$/;"	f
+cmp	moviebin2userbin.c	/^int cmp(const void *p1, const void *p2)$/;"	f
+computeU	usvdns1b.c	/^void computeU()$/;"	f
+computemix	mix2.c	/^computemix(char *fnames[], int nscores, double *xty)$/;"	f
+count	netflix2moviebin.py	/^count=0$/;"	v
+dappend_bin	basic.c	/^void dappend_bin(char *fname,double *vec,int N)$/;"	f
+date2sbin	netflix2moviebin.py	/^def date2sbin(year,month,day):$/;"	f
+day	netflix2moviebin.py	/^        day=int(day)-1$/;"	v
+day0	ubaseline1.c	/^int day0[NUSERS];$/;"	v
+days	basic.c	/^int days(int year, int month, int day)$/;"	f
+ddump_bin	basic.c	/^void ddump_bin(char *fname,double *vec,int M,int N,int N1)$/;"	f
+ddvdot	basic.c	/^double ddvdot(double *v1, double *v2, int n)$/;"	f
+dload_bin	basic.c	/^int dload_bin(char *fname,double *vec,int M,int N1)$/;"	f
+dontclip	utest.c	/^int dontclip=0;$/;"	v
+dquickSortIdx	basic.c	/^void dquickSortIdx(double *arr, int *idx, int elements) {$/;"	f
+dump_bin	basic.c	/^void dump_bin(char *path, void *data, int len)$/;"	f
+dvadd	basic.c	/^void dvadd(double *v1,double *v2,int n)$/;"	f
+dvavg	basic.c	/^double dvavg(double *v, int n)$/;"	f
+dvnorm	basic.c	/^double dvnorm(double *v, int n)$/;"	f
+dvscale	basic.c	/^void dvscale(double *v, double scale, int n)$/;"	f
+dvsearch	basic.c	/^int dvsearch(double *v, int d, double t)$/;"	f
+dvsqr	basic.c	/^double dvsqr(double *v, int n)$/;"	f
+dvwsqr	basic.c	/^double dvwsqr(double *v, int n, double *wgt)$/;"	f
+entry2bin	netflix2moviebin.py	/^def entry2bin(iuser,rank,year,month,day):$/;"	f
+err	utest.c	/^float err[NENTRIES];$/;"	v
+error	basic.c	/^void error(char *fmt,...)$/;"	f
+fcount	countusers.py	/^fcount=0$/;"	v
+fdvdot	basic.c	/^double fdvdot(float *v1, double *v2, int n)$/;"	f
+fdvwdot	basic.c	/^double fdvwdot(float *v1, double *v2, int n,double *wgt)$/;"	f
+fmovie	netflix2moviebin.py	/^            fmovie=int(line[:-1])$/;"	v
+fmovie	netflix2moviebin.py	/^    fmovie = None$/;"	v
+fnameU	usvdbkw1.c	/^static char *fnameU="data\/usvdbkU.bin";$/;"	v	file:
+fnameV	usvdbkw1.c	/^static char *fnameV="data\/usvdbkV.bin";$/;"	v	file:
+fnameVNS1	usvdns1b.c	/^static char *fnameVNS1="data\/nsvd1V.bin";$/;"	v	file:
+fnameWNS1	usvdns1b.c	/^static char *fnameWNS1="data\/nsvd1W.bin";$/;"	v	file:
+fname_outerr	utest.c	/^char *fname_outerr=NULL;$/;"	v
+fp	countusers.py	/^    fp=open(path+fname)$/;"	v
+fp	netflix2moviebin.py	/^    fp=open(training_path+'mv_'+'%07d'%(movie+1)+'.txt')$/;"	v
+fp	netflix2moviebin.py	/^fp=open(probe_path)$/;"	v
+fp	netflix2moviebin.py	/^fp=open(qualify_path)$/;"	v
+fp	netflix2moviebin.py	/^fp=open(users_path)$/;"	v
+fp	qualify2bin.py	/^fp=open(qualify_path)$/;"	v
+fp	qualify2bin.py	/^fp=open(users_path)$/;"	v
+fpU	usvdbkw1.c	/^FILE *fpV=NULL, *fpU=NULL;$/;"	v
+fpV	usvdbkw1.c	/^FILE *fpV=NULL, *fpU=NULL;$/;"	v
+fpV	usvdns1b.c	/^FILE *fpV=NULL,*fpW=NULL;$/;"	v
+fpW	usvdns1b.c	/^FILE *fpV=NULL,*fpW=NULL;$/;"	v
+fpbin	qualify2bin.py	/^fpbin=open(bin_path,"wb")$/;"	v
+fpdat	netflix2moviebin.py	/^fpdat=open(moviedate_path,"wb")$/;"	v
+fpent	netflix2moviebin.py	/^fpent=open(movieent_path,"wb")$/;"	v
+fpidx	netflix2moviebin.py	/^fpidx=open(movieidx_path,"wb")$/;"	v
+fquickSortIdx	basic.c	/^void fquickSortIdx(float *arr, int *idx, int elements) {$/;"	f
+fusers	countusers.py	/^fusers=open('data\/users','w')$/;"	v
+fvsearch	basic.c	/^int fvsearch(float *v, int d, double t)$/;"	f
+fvsqr	basic.c	/^double fvsqr(float *v, int n)$/;"	f
+gauss	basic.c	/^double gauss()$/;"	f
+globalavg	global.c	/^void globalavg()$/;"	f
+header	countusers.py	/^            header=line.strip()$/;"	v
+header	countusers.py	/^    header = None$/;"	v
+int2bin	netflix2moviebin.py	/^def int2bin(data):$/;"	f
+int2bin	qualify2bin.py	/^def int2bin(data):$/;"	f
+int2sbin	netflix2moviebin.py	/^def int2sbin(data):$/;"	f
+iquickSortIdx	basic.c	/^void iquickSortIdx(int *arr, int *idx, int elements) {$/;"	f
+iuser	netflix2moviebin.py	/^        iuser=users[line]$/;"	v
+iuser	netflix2moviebin.py	/^        iuser=users[user]$/;"	v
+iuser	netflix2moviebin.py	/^iuser=0$/;"	v
+iuser	qualify2bin.py	/^        iuser=users[user]$/;"	v
+iuser	qualify2bin.py	/^iuser=0$/;"	v
+last_rmse_both	utest.c	/^double last_rmse_both=-1,last_rmse_both_clipped=-1;$/;"	v
+last_rmse_both_clipped	utest.c	/^double last_rmse_both=-1,last_rmse_both_clipped=-1;$/;"	v
+last_rmse_probe	utest.c	/^double last_rmse_probe=-1,last_rmse_probe_clipped=-1;$/;"	v
+last_rmse_probe_clipped	utest.c	/^double last_rmse_probe=-1,last_rmse_probe_clipped=-1;$/;"	v
+last_rmse_train	utest.c	/^double last_rmse_train=-1,last_rmse_train_clipped=-1;$/;"	v
+last_rmse_train_clipped	utest.c	/^double last_rmse_train=-1,last_rmse_train_clipped=-1;$/;"	v
+lg	basic.c	/^void lg(char *fmt,...)$/;"	f
+lgfile	basic.c	/^FILE *lgfile=NULL;$/;"	v
+lgopen	basic.c	/^void lgopen(int argc, char**argv)$/;"	f
+line	countusers.py	/^        line=line.strip()$/;"	v
+line	netflix2moviebin.py	/^        line=line.strip()$/;"	v
+line	netflix2moviebin.py	/^    line=line.strip()$/;"	v
+line	qualify2bin.py	/^    line=line.strip()$/;"	v
+load_bin	basic.c	/^void load_bin(char *path, void *data, int len)$/;"	f
+load_model	utest.c	/^int load_model=0;$/;"	v
+loadmix	mix2.c	/^loadmix(char *fnames[], int nscores, double *weights) {$/;"	f
+main	moviebin2userbin.c	/^main() {$/;"	f
+main	utest.c	/^main(int argc, char**argv) {$/;"	f
+mavg	ubaseline1.c	/^void mavg()$/;"	f
+methods	ubaseline1.c	/^int methods[20];$/;"	v
+minyear	countusers.py	/^            minyear=year$/;"	v
+minyear	countusers.py	/^minyear='9999'$/;"	v
+month	netflix2moviebin.py	/^        month=int(month)-1$/;"	v
+monthdays	basic.c	/^int monthdays[2][12]={$/;"	v
+movie	countusers.py	/^    movie=int(fname[3:-4])$/;"	v
+movie	netflix2moviebin.py	/^        movie=int(line[:-1])-1$/;"	v
+movie	qualify2bin.py	/^        movie=int(line[:-1])-1$/;"	v
+movie	qualify2bin.py	/^movie=None$/;"	v
+movieXuser	ubaseline1.c	/^void movieXuser(double *xuser, double alpha)$/;"	f
+movieavg	ubaseline1.c	/^double movieavg[NMOVIES];$/;"	v
+movieavguser	ubaseline1.c	/^void movieavguser()$/;"	f
+moviecntuser	ubaseline1.c	/^void moviecntuser()$/;"	f
+moviecount	ubaseline1.c	/^int moviecount[NMOVIES];$/;"	v
+moviecount	usvdbkw1.c	/^int moviecount[NMOVIES];$/;"	v
+moviedat	moviebin2userbin.c	/^unsigned short moviedat[NENTRIES];$/;"	v
+moviedate_path	netflix.h	/^static char *moviedate_path="data\/movie_date.bin";$/;"	v
+moviedate_path	netflix2moviebin.py	/^moviedate_path="data\/movie_date.bin"$/;"	v
+movieent	moviebin2userbin.c	/^unsigned int movieent[NENTRIES];$/;"	v
+movieent_path	netflix.h	/^static char *movieent_path="data\/movie_entry.bin";$/;"	v
+movieent_path	netflix2moviebin.py	/^movieent_path="data\/movie_entry.bin"$/;"	v
+movieidx	moviebin2userbin.c	/^int movieidx[NMOVIES][4];$/;"	v
+movieidx	netflix2moviebin.py	/^movieidx=0$/;"	v
+movieidx_path	netflix.h	/^static char *movieidx_path="data\/movie_index.bin";$/;"	v
+movieidx_path	netflix2moviebin.py	/^movieidx_path="data\/movie_index.bin"$/;"	v
+movietime	ubaseline1.c	/^void movietime()$/;"	f
+movietimeuser	ubaseline1.c	/^void movietimeuser()$/;"	f
+new_sU	usvdbkw1.c	/^double new_sU[NUSERS];$/;"	v
+new_sV	usvdbkw1.c	/^double new_sV[NMOVIES], new_sVV[NMOVIES];$/;"	v
+new_sVV	usvdbkw1.c	/^double new_sV[NMOVIES], new_sVV[NMOVIES];$/;"	v
+nmethods	ubaseline1.c	/^int nmethods=0;$/;"	v
+nprobe	netflix2moviebin.py	/^    nprobe=len(probeent)\/4$/;"	v
+nqualify	netflix2moviebin.py	/^    nqualify=len(qualifyent[movie])\/4$/;"	v
+ntrain	netflix2moviebin.py	/^    ntrain=len(trainent)\/4$/;"	v
+openfiles	mix2.c	/^void openfiles(FILE *fp[],char *fnames[], int nscores)$/;"	f
+path	countusers.py	/^path="input\/training_set\/"$/;"	v
+probe	netflix2moviebin.py	/^probe=[]$/;"	v
+probe_path	netflix2moviebin.py	/^probe_path="input\/probe.txt"$/;"	v
+probedat	netflix2moviebin.py	/^    probedat=''$/;"	v
+probeent	netflix2moviebin.py	/^    probeent=''$/;"	v
+problemNonNegativeQuadraticOpt	basic.c	/^int problemNonNegativeQuadraticOpt=0;$/;"	v
+qualify_path	netflix2moviebin.py	/^qualify_path="input\/qualifying.txt"$/;"	v
+qualify_path	qualify2bin.py	/^qualify_path="input\/qualifying.txt"$/;"	v
+qualifydat	netflix2moviebin.py	/^qualifydat=[]$/;"	v
+qualifyent	netflix2moviebin.py	/^qualifyent=[]$/;"	v
+randperm	basic.c	/^void randperm(int perm[], int d)$/;"	f
+rank	netflix2moviebin.py	/^        rank=7 # This signals that there is no known rank for this entry$/;"	v
+rank	netflix2moviebin.py	/^        rank=int(rank)-1$/;"	v
+readfiles	mix2.c	/^void readfiles(FILE *fp[], float *s, int nscores)$/;"	f
+removeUV	usvdbkw1.c	/^void removeUV()$/;"	f
+removeUV	usvdns1b.c	/^void removeUV()$/;"	f
+rmse	utest.c	/^double rmse(int k)$/;"	f
+rmse_print	utest.c	/^void rmse_print(int copt)$/;"	f
+sU	usvdbkw1.c	/^double sU[NUSERS],sV[NMOVIES];$/;"	v
+sU	usvdns1b.c	/^double sU[NUSERS]; \/\/ moviebag$/;"	v
+sV	usvdbkw1.c	/^double sU[NUSERS],sV[NMOVIES];$/;"	v
+sV	usvdns1b.c	/^double sV[NMOVIES];$/;"	v
+sW	usvdns1b.c	/^double sW[NMOVIES];$/;"	v
+save_model	utest.c	/^int save_model=0;$/;"	v
+score_argv	ubaseline1.c	/^int score_argv(char **argv)$/;"	f
+score_argv	usvdbkw1.c	/^int score_argv(char **argv) {return 0;}$/;"	f
+score_argv	usvdns1b.c	/^int score_argv(char **argv) {return 0;}$/;"	f
+score_setup	ubaseline1.c	/^void score_setup()$/;"	f
+score_setup	usvdbkw1.c	/^void score_setup()$/;"	f
+score_setup	usvdns1b.c	/^void score_setup()$/;"	f
+score_train	ubaseline1.c	/^int score_train(int loop) {$/;"	f
+score_train	usvdbkw1.c	/^int score_train(int loop)$/;"	f
+score_train	usvdns1b.c	/^int score_train(int loop)$/;"	f
+sdate	countusers.py	/^        sdate=date.split('-')$/;"	v
+sdate	netflix2moviebin.py	/^        sdate=date.split('-')$/;"	v
+seekfiles	mix2.c	/^void seekfiles(FILE *fp[], int nscores, int d)$/;"	f
+sline	countusers.py	/^        sline=line.split(',')$/;"	v
+sline	netflix2moviebin.py	/^        sline=line.split(',')$/;"	v
+sline	qualify2bin.py	/^        sline=line.split(',')$/;"	v
+timecorr2	ubaseline1.c	/^void timecorr2()$/;"	f
+totalNonNegativeQuadraticOpt	basic.c	/^int totalNonNegativeQuadraticOpt=0;$/;"	v
+traindat	netflix2moviebin.py	/^    traindat=''$/;"	v
+trainent	netflix2moviebin.py	/^    trainent=''$/;"	v
+training_path	netflix2moviebin.py	/^training_path="input\/training_set\/"$/;"	v
+uavg	ubaseline1.c	/^void uavg()$/;"	f
+uivmin	basic.c	/^unsigned int uivmin(unsigned int *v, int n)$/;"	f
+unorm	usvdns1b.c	/^double unorm[NUSERS];$/;"	v
+uquickSort	basic.c	/^void uquickSort(unsigned int *arr, int elements) {$/;"	f
+uquickSortIdx	basic.c	/^void uquickSortIdx(unsigned int *arr, int *idx, int elements) {$/;"	f
+user	countusers.py	/^        user=int(user)$/;"	v
+user	qualify2bin.py	/^    user=user.strip()$/;"	v
+userXX	ubaseline1.c	/^void userXX(double *usertime,float *ein, int d0, int d012, double alpha)$/;"	f
+userXmovie	ubaseline1.c	/^void userXmovie(double *xmovie, double alpha)$/;"	f
+useravg	ubaseline1.c	/^double useravg[NUSERS];$/;"	v
+useravgmovie	ubaseline1.c	/^void useravgmovie()$/;"	f
+usercntmovie	ubaseline1.c	/^void usercntmovie()$/;"	f
+usercount	moviebin2userbin.c	/^int usercount[NUSERS][4]; \/\/ we dont use [0]$/;"	v
+usercount	ubaseline1.c	/^int usercount[NUSERS];$/;"	v
+userent	moviebin2userbin.c	/^unsigned int userent[NENTRIES];$/;"	v
+userent	utest.c	/^unsigned int userent[NENTRIES];$/;"	v
+userent_path	moviebin2userbin.c	/^static char *userent_path="data\/user_entry.bin";$/;"	v	file:
+userent_path	utest.c	/^char *userent_path="data\/user_entry.bin";$/;"	v
+useridx	moviebin2userbin.c	/^int useridx[NUSERS][4];$/;"	v
+useridx	utest.c	/^int useridx[NUSERS][4];$/;"	v
+useridx_path	moviebin2userbin.c	/^static char *useridx_path="data\/user_index.bin";$/;"	v	file:
+useridx_path	utest.c	/^char *useridx_path="data\/user_index.bin";$/;"	v
+users	countusers.py	/^users={}$/;"	v
+users	netflix2moviebin.py	/^users={}$/;"	v
+users	qualify2bin.py	/^users={}$/;"	v
+users_path	netflix2moviebin.py	/^users_path="data\/users"$/;"	v
+users_path	qualify2bin.py	/^users_path="data\/users"$/;"	v
+usertime	ubaseline1.c	/^void usertime()$/;"	f
+usertimemovie	ubaseline1.c	/^void usertimemovie()$/;"	f
+weight_norm	weight.c	/^void weight_norm()$/;"	f
+weight_time_setup	weight.c	/^void weight_time_setup()$/;"	f
+wgt	weight.c	/^float wgt[NENTRIES];$/;"	v
+year	netflix2moviebin.py	/^        year=int(year)-1998$/;"	v
+yeardays	basic.c	/^int yeardays[]={0,365,365+365,365+365+366,365+365+366+365,365+365+366+365+365,365+365+366+365+365+365,365+365+366+365+365+365+366};$/;"	v
